@@ -1,0 +1,6 @@
+email-sender/dependency-reduced-pom.xml
+email-sender/nbactions.xml
+email-sender/target
+email-sender/src/main/resources/application.properties
+.aws-sam
+

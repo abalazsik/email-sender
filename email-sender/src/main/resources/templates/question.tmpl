@@ -1,0 +1,24 @@
+<#ftl output_format="XML">
+<html lang="hu">
+	<head>
+        <meta charset='utf-8'>
+		<style>
+
+.header {
+	background-color: #63e6e9;
+}
+
+		</style>
+	</head>
+	<body>
+		<div>Köszönjük megkeresését, hamarosan jelentkezünk:</div>
+		<div align="center" class="header">
+			<table>
+			<tr><td><b>Kérdező</b></td><td>${senderName}</td></tr>
+			<tr><td><b>Email</b></td><td>${senderEmail}</td></tr>
+			<tr><td><b>Dátum</b></td><td>${timestamp}</td></tr>
+			</table>
+		</div>
+		<div align="center"><blockquote>${content}</blockquote></div>
+	</body>
+</html>
