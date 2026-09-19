@@ -16,7 +16,7 @@
 
   const recaptchaSubmitted = function(token) {
     grecaptcha.ready(function() {
-      grecaptcha.execute('6LdMXuwoAAAAAAUGoMMHx2l8xVF32qM3qbo2KTqo', {action: 'submit'}).then(function(token) {
+      grecaptcha.execute('6LdMXuwoAAAAAAUGoMMHx2l8xVF32qM3qbo2KTqo' /*public captcha site key*/, {action: 'submit'}).then(function(token) {
         state.token = token;
       });
     });

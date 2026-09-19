@@ -21,7 +21,7 @@ import org.glassfish.jersey.client.ClientConfig;
  */
 public class RecaptchaService {
 
-    public static final String CAPTCHA_KEY = "CAPTHA_KEY";
+    public static final String CAPTCHA_KEY = "CAPTCHA_KEY";
     public static final String RECAPTCHA_URL = "https://www.google.com/recaptcha/api/siteverify";
     private final String captchaSiteKey;
     private final Client client;

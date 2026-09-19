@@ -45,8 +45,8 @@ public class EmailSenderService {
         props.put("mail.smtp.socketFactory.port", Configuration.INSTANCE.getProperty(SMTP_SERVER_PORT_KEY));
         props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
         props.put("mail.smtp.socketFactory.fallback", "false");
-        props.setProperty("mail.smtp.allow8bitmime", "true");
-        props.setProperty("mail.smtps.allow8bitmime", "true");
+        props.put("mail.smtp.allow8bitmime", "true");
+        props.put("mail.smtps.allow8bitmime", "true");
 
         senderEmail = generateSenderEmail(Configuration.INSTANCE.getProperty(SMTP_USER_KEY), Configuration.INSTANCE.getProperty(SMTP_SERVER_KEY));
 

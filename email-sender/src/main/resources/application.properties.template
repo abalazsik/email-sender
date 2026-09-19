@@ -1,0 +1,13 @@
+#create an application.properties file from this template before building the project
+# captcha secret key from the the google console
+CAPTCHA_KEY=
+# MASTER_EMAIL: where the email will be sent
+MASTER_EMAIL=
+# domain name of the SMTP server (like mail.example.com)
+SMTP_SERVER_KEY=
+# post of the SMTP server
+SMTP_SERVER_PORT_KEY=465
+#username of the sender email. For example if this property is 'noreply', then the sender email will be noreply@mail.example.com
+SMTP_USER_KEY=
+#password for the email account
+SMTP_PASSWORD_KEY=

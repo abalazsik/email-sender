@@ -1,5 +1,5 @@
 
-const SERVER = "https://evidbihbo9.execute-api.eu-central-1.amazonaws.com/Stage";
+const SERVER = "https://evidbihbo9.execute-api.eu-central-1.amazonaws.com/Stage"; // change this to your API url
 
 //const SERVER = "http://127.0.0.1:3000";
 
